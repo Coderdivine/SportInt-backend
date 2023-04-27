@@ -22,6 +22,7 @@ router.post("/r-forgot-password",UserCtrl.resendForgotPasswordCode);
 
 router.post("/update-profile",auth,UserCtrl.updateUserProfile);
 
+
 /**
  * @apiIgnore Not to be used
  *

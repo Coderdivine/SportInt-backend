@@ -5,7 +5,7 @@ Content-Type: application/json
 
 {
     "email":"chimdi4332@gmail.com",
-    "password":"common@2"
+    "password":"comon@2"
 }
 ###
 POST http://localhost:4001/user/register
@@ -18,15 +18,15 @@ Content-Type: application/json
     "phone_number":"+2348150740406",
     "Interest":"FOOTBALL"
 }
-###
-POST http://localhost:4001/user/update-profile
-Authorization: Bearer eTYsv...
-Content-Type: application/json
+# ###
+# POST http://localhost:4001/user/update-profile
+# Authorization: Bearer eTYsv...
+# Content-Type: application/json
 
-{
-    "user_id":"chimdi4332@gmail.com",
-    "city":"campinas"
-}
+# {
+#     "user_id":"chimdi4332@gmail.com",
+#     "city":"campinas"
+# }
 ###
 POST http://localhost:4001/user/v-registration
 Authorization: Bearer eTYsv...
