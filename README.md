@@ -1,7 +1,7 @@
 # SportInterest API Documentation
 This documentation provides an overview of the endpoints available in the SportInterest API. The API allows users to perform various operations related to user management, registration, login, profile updates, and password recovery.
 
-Base URL
+URL
 The base URL for all API endpoints is https://api.sportinterest.com.
 
 User Endpoints
